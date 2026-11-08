@@ -25,9 +25,7 @@ class BankAccount:
         else:
             print("Error: Invailed pin! Cannot fetch balance")
             return None
-             
-        
-
+    
 my_account = BankAccount("krishna" , 1000 , "1234")
 
 my_account.__balance = 500000
